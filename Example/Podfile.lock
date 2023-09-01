@@ -1,0 +1,23 @@
+PODS:
+  - Alamofire (4.9.1)
+  - KNetwork (0.1.0):
+    - Alamofire (~> 4.9)
+
+DEPENDENCIES:
+  - KNetwork (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+
+EXTERNAL SOURCES:
+  KNetwork:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  KNetwork: 15dfe2fc9f87dba83047bc1ec5ce83983f8b4106
+
+PODFILE CHECKSUM: 8cb17fb645f0ec87300b183426daab691db30281
+
+COCOAPODS: 1.11.3

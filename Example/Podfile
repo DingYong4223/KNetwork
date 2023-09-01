@@ -1,0 +1,12 @@
+use_frameworks!
+
+platform :ios, '12.0'
+
+target 'KNetwork_Example' do
+  pod 'KNetwork', :path => '../'
+
+  target 'KNetwork_Tests' do
+    inherit! :search_paths
+    
+  end
+end
